@@ -1,0 +1,93 @@
+ignored = ["github.com/kongyixueyuan.com/education/chaincode"]
+
+#[[constraint]]
+#  name = "github.com/go-kit/kit"
+#  version = "v0.8.0"
+
+#[[constraint]]
+#  name = "github.com/go-logfmt/logfmt"
+#  version = "v0.4.0"
+
+#[[constraint]]
+#  name = "github.com/golang/mock"
+#  version = "v1.3.0"
+
+[[override]]
+  name = "github.com/google/certificate-transparency-go"
+  version = "=1.0.21"
+
+[[override]]
+  name = "github.com/hyperledger/fabric-lib-go"
+  version = "=1.0.0"
+
+[[constraint]]
+  name = "github.com/hyperledger/fabric-sdk-go"
+  revision = "a906355f73d060d7bf95874a9e90dc17589edbb3"
+
+[[override]]
+  name = "github.com/cloudflare/cfssl"
+  revision = "4e2dcbde500472449917533851bf4bae9bdff562"
+
+[[override]]
+  name = "golang.org/x/crypto"
+  revision = "e7c4368fe9ddd156b5f1463283cb51c5b400c373"
+
+[[override]]
+  name = "golang.org/x/lint"
+  revision = "c67002cb31c3a748b7688c27f20d8358b4193582"
+
+[[override]]
+  name = "golang.org/x/net"
+  revision = "a91f0712d120a21e49061d61eb6ba9b88cb0d376"
+
+[[override]]
+  name = "golang.org/x/sync"
+  revision = "37e7f081c4d4c64e13b10787722085407fe5d15f"
+
+[[override]]
+  name = "golang.org/x/tools"
+  revision = "14c9c2854651f7c48c91b36cdf09270b3ee74ed8"
+
+[[override]]
+  name = "google.golang.org/protobuf"
+  version = "=1.21.0"
+
+[[override]]
+  name = "github.com/pkg/errors"
+  version = "=0.8.1"
+
+[[override]]
+  name = "github.com/golang/protobuf"
+  revision = "aa810b61a9c79d51363740d207bb46cf8e620ed5"
+
+[[override]]
+  name = "github.com/pelletier/go-toml"
+  revision = "c01d1270ff3e442a8a57cddc1c92dc1138598194"
+
+[[override]]
+  name = "github.com/spf13/afero"
+  revision = "d40851caa0d747393da1ffb28f7f9d8b4eeffebd"
+  
+[[override]]
+  name = "google.golang.org/grpc"
+  revision = "2e463a05d100327ca47ac218281906921038fd95"
+
+[[override]]
+  name = "google.golang.org/genproto"
+  revision = "94acd270e44e65579b9ee3cdab25034d33fed608"
+
+[[override]]
+  name = "golang.org/x/sys"
+  revision = "44b849a8bc13eb42e95e6c6c5e360481b73ec710"
+#[[constraint]]
+#  name = "github.com/prometheus/client_golang"
+#  version = "v0.9.2"
+
+#[[constraint]]
+#  name = "github.com/spf13/viper"
+#  version = "v1.3.2"
+
+#[[constraint]]
+#  name = "google.golang.org/grpc"
+#  version = "v1.20.1"
+
